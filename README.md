@@ -2,7 +2,7 @@
 
 A dark-first operations and CRM dashboard template built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS v4**. Clients, team, projects, files, activity, roles, and settings, all wired up with demo data so you can see it working the moment it starts.
 
-**Live demo:** https://YOUR-DEMO-URL.vercel.app
+**Live demo:** https://forgeops-two.vercel.app/
 
 > All names, companies, and numbers in the demo are fictional.
 
