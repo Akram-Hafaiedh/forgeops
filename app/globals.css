@@ -1,26 +1,153 @@
 @import "tailwindcss";
 
+/* @import "tw-animate-css"; */
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4f2ec;
+  --foreground: #1a1c1f;
+  --card: #fbfaf6;
+  --card-foreground: #1a1c1f;
+  --popover: #fbfaf6;
+  --popover-foreground: #1a1c1f;
+  --primary: #1a1c1f;
+  --primary-foreground: #f4f2ec;
+  --secondary: #eceae3;
+  --secondary-foreground: #1a1c1f;
+  --muted: #eceae3;
+  --muted-foreground: #6b6e76;
+  --accent: #eceae3;
+  --accent-foreground: #1a1c1f;
+  --destructive: #9f2d2d;
+  --destructive-foreground: #fbfaf6;
+  --border: color-mix(in oklab, #1a1c1f 12%, transparent);
+  --input: color-mix(in oklab, #1a1c1f 14%, transparent);
+  --ring: #1a1c1f;
+  --success: #2f6b4f;
+  --warning: #8a5a12;
+  --sidebar: #eceae3;
+  --sidebar-foreground: #1a1c1f;
+  --sidebar-border: color-mix(in oklab, #1a1c1f 10%, transparent);
+  --sidebar-accent: #dddacf;
+  --steel: #5d6773;
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --shadow-border:
+    0px 0px 0px 1px rgba(26, 28, 31, 0.06), 0px 1px 2px -1px rgba(26, 28, 31, 0.06),
+    0px 2px 4px 0px rgba(26, 28, 31, 0.04);
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+.dark {
+  --background: #0b0c0e;
+  --foreground: #ececea;
+  --card: #14161a;
+  --card-foreground: #ececea;
+  --popover: #16181d;
+  --popover-foreground: #ececea;
+  --primary: #e7e4dc;
+  --primary-foreground: #0b0c0e;
+  --secondary: #1b1e24;
+  --secondary-foreground: #ececea;
+  --muted: #1b1e24;
+  --muted-foreground: #8b8e96;
+  --accent: #1b1e24;
+  --accent-foreground: #ececea;
+  --destructive: #d46a6a;
+  --destructive-foreground: #0b0c0e;
+  --border: color-mix(in oklab, #ececea 12%, transparent);
+  --input: color-mix(in oklab, #ececea 16%, transparent);
+  --ring: #c9d0d8;
+  --success: #7dba9a;
+  --warning: #d4b07a;
+  --sidebar: #101216;
+  --sidebar-foreground: #ececea;
+  --sidebar-border: color-mix(in oklab, #ececea 10%, transparent);
+  --sidebar-accent: #1b1e24;
+  --steel: #c9d0d8;
+  --shadow-border: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-steel: var(--steel);
+  --radius-xs: var(--radius-xs);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply bg-background text-foreground antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply min-h-dvh bg-background font-sans text-foreground;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

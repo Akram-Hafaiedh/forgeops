@@ -1,0 +1,35 @@
+import { cn } from "@/lib/utils";
+
+export function LogoMark({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 32 32"
+      className={cn("size-7", className)}
+      aria-hidden="true"
+    >
+      <rect width="32" height="32" rx="8" className="fill-foreground" />
+      <path
+        d="M10 22V10h8.2c2.6 0 4.3 1.6 4.3 4 0 1.6-.8 2.8-2.1 3.4 1.5.5 2.5 1.8 2.5 3.5 0 2.6-1.9 4.1-4.7 4.1H10Zm3.2-5.4h4.5c1.2 0 1.9-.6 1.9-1.6s-.7-1.5-1.9-1.5h-4.5v3.1Zm0 2.4v2.8h5c1.3 0 2.1-.7 2.1-1.7 0-1-.8-1.6-2.1-1.6h-5Z"
+        className="fill-background"
+      />
+    </svg>
+  );
+}
+
+export function Logo({ collapsed = false }: { collapsed?: boolean }) {
+  return (
+    <div className="flex items-center gap-2.5">
+      <LogoMark />
+      {!collapsed ? (
+        <div className="min-w-0 leading-tight">
+          <p className="truncate text-sm font-semibold tracking-tight text-sidebar-foreground">
+            Forge Ops
+          </p>
+          <p className="truncate text-[11px] text-muted-foreground">
+            Northline
+          </p>
+        </div>
+      ) : null}
+    </div>
+  );
+}
