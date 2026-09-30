@@ -1,0 +1,170 @@
+FORGE OPS COMMERCIAL LICENSE
+Version 1.0, 2026
+
+Copyright (c) 2026 [YOUR FULL NAME OR BUSINESS NAME]. All rights reserved.
+
+This license applies to the source code, design, and documentation
+included in this download (the "Product"). By downloading, installing, or
+using the Product, you agree to these terms.
+
+
+1. DEFINITIONS
+
+"Licensor" means [YOUR FULL NAME OR BUSINESS NAME], the creator and owner of
+the Product.
+
+"You" means the person or company that purchased this license.
+
+"End Product" means one single website, web application, or software
+product that incorporates the Product or a modified version of it, and that
+is delivered to users as a finished work.
+
+"Project" means one End Product. A separate client site, a separate
+deployed application, or a separate brand counts as a separate Project.
+
+
+2. WHAT YOU MAY DO
+
+This Standard License gives you a non-exclusive, non-transferable,
+worldwide right to:
+
+a) Use the Product in ONE Project, either your own or one for a single
+   client.
+
+b) Modify the Product: change the code, design, text, colors, and data to
+   fit your Project.
+
+c) Use the Project commercially, including charging your own customers to
+   use it.
+
+d) Keep a private copy for backup and for your own team members who work on
+   the Project.
+
+e) Deploy the Project to any hosting provider you choose.
+
+
+3. WHAT YOU MAY NOT DO
+
+You may not:
+
+a) Resell, sublicense, rent, lend, give away, or otherwise redistribute the
+   Product or its source code, in original or modified form, as a
+   standalone product.
+
+b) Publish the source code in a public repository, or share it with anyone
+   outside your team and the single client of your Project.
+
+c) Include the Product in a template, starter kit, boilerplate, UI kit, or
+   any other product whose main value is the code or design of the Product,
+   whether free or paid.
+
+d) Use the Product in more than one Project under this license. To use it
+   in additional Projects, buy an additional license.
+
+e) Claim that you created the original Product, or use the Licensor's name
+   to promote your Project without written permission.
+
+f) Use the Product for anything unlawful, or to build software intended to
+   harm others.
+
+Removing or hiding this license file from the copy you received is not
+permitted.
+
+
+4. OWNERSHIP
+
+The Product remains the property of the Licensor. This license gives you
+the right to use it as described above. It does not transfer ownership of
+the Product, its design, or its copyright.
+
+The End Product you build, including your own content, data, and any code
+you wrote yourself, belongs to you. The Product's original code and design
+inside it remain licensed under these terms.
+
+
+5. THIRD-PARTY COMPONENTS
+
+The Product uses open-source software and fonts, including Next.js, React,
+Tailwind CSS, Radix UI, lucide-react, cmdk, zustand, date-fns, clsx,
+tailwind-merge, class-variance-authority, tw-animate-css, and the IBM Plex
+fonts. These are provided under their own licenses, which remain in force
+and are not replaced by this license. Please review each package's license
+in the node_modules folder or at its project page.
+
+The demo data, names, and company names in the Product are fictional. Any
+resemblance to real people or businesses is coincidental.
+
+
+6. SUPPORT AND UPDATES
+
+[Choose one and delete the other.]
+
+Option A: Support is limited to help with installation and to fixing bugs
+in the Product, by email at [YOUR-EMAIL], for [3 / 6 / 12] months from the
+date of purchase. Custom work is not included.
+
+Option B: The Product is provided as-is, with no support obligation. Updates
+may be offered at the Licensor's discretion.
+
+
+7. REFUNDS
+
+[Choose one and delete the other.]
+
+Option A: Because the Product is a digital download that cannot be
+returned, all sales are final. If the Product does not work as described,
+contact [YOUR-EMAIL] within [14] days and the Licensor will try to fix the
+problem or offer a refund.
+
+Option B: You may request a refund within [7] days of purchase if you have
+not used the Product in a live Project. Contact [YOUR-EMAIL].
+
+
+8. NO WARRANTY
+
+THE PRODUCT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE LICENSOR DOES
+NOT GUARANTEE THAT THE PRODUCT WILL BE ERROR-FREE OR MEET YOUR SPECIFIC
+REQUIREMENTS.
+
+
+9. LIMITATION OF LIABILITY
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, THE LICENSOR IS NOT LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, OR FOR LOSS OF
+PROFITS, DATA, OR BUSINESS, ARISING FROM THE USE OF OR INABILITY TO USE THE
+PRODUCT. THE LICENSOR'S TOTAL LIABILITY FOR ANY CLAIM IS LIMITED TO THE
+AMOUNT YOU PAID FOR THIS LICENSE.
+
+You are responsible for the security, privacy, and legal compliance of the
+End Product you build, including authentication, data protection, and any
+laws that apply to your users.
+
+
+10. TERMINATION
+
+This license ends automatically if you break any of its terms. When it
+ends, you must stop using the Product and delete all copies. Sections 4, 8,
+9, and 12 continue to apply after termination.
+
+
+11. ADDITIONAL LICENSES
+
+Need to use the Product in more than one Project, or to build a product for
+many clients? Contact [YOUR-EMAIL] about an Extended License.
+
+
+12. GOVERNING LAW
+
+[Write the country or region whose laws apply, for example:]
+This license is governed by the laws of [COUNTRY / REGION]. Any dispute
+will be handled in the courts of [COUNTRY / REGION], unless local consumer
+law gives you the right to another venue.
+
+
+CONTACT
+
+[YOUR FULL NAME OR BUSINESS NAME]
+[YOUR-EMAIL]
+[YOUR-WEBSITE]
